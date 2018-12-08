@@ -1,7 +1,8 @@
-#!/system/bin/bash
+#!/usr/bin/bash
+clear
+termux-setup-storage
 pkg install wget -y
 pkg install toilet -y
-clear
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -16,20 +17,19 @@ echo $cyan "IG : fajar_firdaus_7"
 echo $cyan "YT : iTech7732"
 echo "\033[36;1m<======================================>"
 sleep 1
-termux-setup-storage
 toilet -f future.flf +---+BugMaker+---+ --gay
 echo "\033[31;1m[$]=====================================[$]"
-echo "+-----------------+[Virus Buat Android]+-----------------+"
-echo "(1).> Freeze (Bikin Lag hp lo)"
-echo "(2).> Bootloop (Bikin Hp lo stuck di booting screen)"
-echo "(3).> Elite (Gk tau coba aja sendiri)"
-echo "(4).> Dataeater (Hapus Data memory hp lo)"
-echo "(5).> Bomzip (Gk tau :V)"
-echo "+-----------------+[Virus Buat Windows]+-----------------+"
-echo "(6).> disableinternet (auto matiin internet lu)"
-echo "(7).> crash (auto bikin crash pc lo )"
-echo "(8).> CD_LOOP (Bikin Tempat Cd lo keluar masuk sendiri)"
-echo "(9).> bom_notepad (bom notepad)"
+echo $white "+-----------------+[Virus Buat Android]+-----------------+"
+echo $blue "(1).> Freeze (Bikin Lag hp lo)"
+echo $blue "(2).> Bootloop (Bikin Hp lo stuck di booting screen)"
+echo $blue "(3).> Elite (Gk tau coba aja sendiri)"
+echo $blue "(4).> Dataeater (Hapus Data memory hp lo)"
+echo $blue "(5).> Bomzip (Gk tau :V)"
+echo $white "+-----------------+[Virus Buat Windows]+-----------------+"
+echo $green "(6).> disableinternet (auto matiin internet lu)"
+echo $green "(7).> crash (auto bikin crash pc lo )"
+echo $green "(8).> CD_LOOP (Bikin Tempat Cd lo keluar masuk sendiri)"
+echo $green "(9).> bom_notepad (bom notepad)"
 echo "\033[31;1m[$]=====================================[$]"
 read -p "root@BugMaker-#" asw
 
