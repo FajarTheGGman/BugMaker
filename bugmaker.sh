@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/system/xbin/bash
 clear
 termux-setup-storage
 pkg install wget -y
@@ -10,15 +10,18 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
-sleep 2 
+sleep 2
+echo ""
 echo "\033[36;1m<======================================>"
 echo $cyan "Coder : Fajar Firdaus "
 echo $cyan "Fb : https://www.facebook.com/Ace.of.spades729"
 echo $cyan "IG : fajar_firdaus_7"
 echo $cyan "YT : iTech7732"
 echo "\033[36;1m<======================================>"
-sleep 2 
+echo ""
+sleep 2
 toilet -f future.flf +---+BugMaker+---+ --gay
+echo ""
 echo "\033[31;1m[$]=====================================[$]"
 echo $white "+-----------------+[Virus Buat Android]+-----------------+"
 echo $blue "(1).> Freeze (Bikin Lag hp lo)"
@@ -32,6 +35,7 @@ echo $green "(7).> crash (auto bikin crash pc lo )"
 echo $green "(8).> CD_LOOP (Bikin Tempat Cd lo keluar masuk sendiri)"
 echo $green "(9).> bom_notepad (bom notepad)"
 echo "\033[31;1m[$]=====================================[$]"
+echo ""
 read -p "root@BugMaker-#" asw
 
 if [ $asw = 1 ] || [ $asw = 1 ]
