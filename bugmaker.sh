@@ -1,4 +1,4 @@
-#!/system/xbin/bash
+#!/usr/bin/bash
 clear
 termux-setup-storage
 pkg install wget -y
@@ -21,7 +21,6 @@ echo "\033[36;1m<======================================>"
 echo ""
 sleep 2
 toilet -f future.tlf +---+BugMaker+---+ --gay
-echo ""
 echo "\033[31;1m[$]=====================================[$]"
 echo $white "+-----------------+[Virus Buat Android]+-----------------+"
 echo $blue "(1).> Freeze (Bikin Lag hp lo)"
@@ -35,7 +34,6 @@ echo $green "(7).> crash (auto bikin crash pc lo )"
 echo $green "(8).> CD_LOOP (Bikin Tempat Cd lo keluar masuk sendiri)"
 echo $green "(9).> bom_notepad (bom notepad)"
 echo "\033[31;1m[$]=====================================[$]"
-echo ""
 read -p "root@BugMaker-#" asw
 
 if [ $asw = 1 ] || [ $asw = 1 ]
