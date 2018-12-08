@@ -13,14 +13,14 @@ yellow='\033[33;1m'
 sleep 2
 echo ""
 echo "\033[36;1m<======================================>"
-echo $cyan "Coder : Fajar Firdaus "
-echo $cyan "Fb : https://www.facebook.com/Ace.of.spades729"
-echo $cyan "IG : fajar_firdaus_7"
-echo $cyan "YT : iTech7732"
+echo "\033[36;1mCoder : Fajar Firdaus "
+echo "\033[36;1mFb : https://www.facebook.com/Ace.of.spades729"
+echo "\033[36;1mIG : fajar_firdaus_7"
+echo "\033[36;1mYT : iTech7732"
 echo "\033[36;1m<======================================>"
 echo ""
 sleep 2
-toilet -f future.flf +---+BugMaker+---+ --gay
+toilet -f future.tlf +---+BugMaker+---+ --gay
 echo ""
 echo "\033[31;1m[$]=====================================[$]"
 echo $white "+-----------------+[Virus Buat Android]+-----------------+"
